@@ -1,0 +1,29 @@
+name: Python quality checks
+
+on:
+  push:
+    paths:
+      - "07-python-engineering/**"
+      - ".github/workflows/python-tests.yml"
+  pull_request:
+    paths:
+      - "07-python-engineering/**"
+      - ".github/workflows/python-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        working-directory: 07-python-engineering
+        run: python -m unittest -v
