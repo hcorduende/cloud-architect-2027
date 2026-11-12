@@ -11,4 +11,6 @@ Hands-on Kubernetes administration using a local disposable cluster first, then 
 - Troubleshooting nodes, control plane and workloads
 - Backup/restore concepts and cluster maintenance
 
-Record the Kubernetes version and distribution tested in every lab. Do not assume an employer's cluster version or distribution; validate it with authorization before any workplace-specific learning.
+CKA is a required outcome in the program. Record the Kubernetes version and distribution tested in every lab. Do not assume an employer's cluster version or distribution; validate it with authorization before any workplace-specific learning.
+
+The first practical labs should use disposable local infrastructure so mistakes cannot affect shared clusters.
