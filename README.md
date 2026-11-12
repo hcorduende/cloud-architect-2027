@@ -54,20 +54,23 @@ Revalidate exam names, versions and objectives with the issuing vendor before bo
 4. Add identity, security, monitoring and cost controls.
 5. Progress through AWS, Kubernetes and capstones in dependency order.
 
+## Start here
+- [Program operating model](docs/PROGRAM-OPERATING-MODEL.md)
+- [Engineering standards](docs/ENGINEERING-STANDARDS.md)
+- [Contribution workflow](CONTRIBUTING.md) · [Security policy](SECURITY.md)
+- [Lab template](docs/templates/LAB-TEMPLATE.md) · [ADR template](docs/templates/ADR-TEMPLATE.md)
+- [Threat model template](04-cloud-security/THREAT-MODEL-TEMPLATE.md)
+- [Azure Lab 001](02-azure/labs/001-resource-group-and-vnet/README.md)
+- [AWS Lab 001](03-aws/labs/001-account-identity-baseline/README.md)
+- [Python Lab 001](07-python-engineering/README-LAB-001.md)
+- [Capstone 01 — Secure Multi-Tier Platform](10-portfolio-projects/capstone-01/README.md)
+
 ## Engineering rules
 - Every lab records prerequisites, tested versions, architecture, validation, security, cost and cleanup.
 - Use sandbox accounts and least-privilege permissions. Review changes before applying them.
 - Never commit secrets, private keys, state files, customer data or employer-confidential information.
 - Use synthetic examples and generic architectures in this public portfolio.
 - A topic is complete only with reproducible evidence: code, tests, sanitized output, diagram or documented decision.
-
-## Start here
-- [Engineering standards](docs/ENGINEERING-STANDARDS.md)
-- [Contribution workflow](CONTRIBUTING.md)
-- [Security policy](SECURITY.md)
-- [Lab template](docs/templates/LAB-TEMPLATE.md)
-- [ADR template](docs/templates/ADR-TEMPLATE.md)
-- [Azure Lab 001](02-azure/labs/001-resource-group-and-vnet/README.md)
 
 Planned work is marked as planned; no lab is called validated until it has actually been executed.
 
